@@ -6,7 +6,7 @@
 /*   By: asaracut <asaracut@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/19 01:46:59 by asaracut          #+#    #+#             */
-/*   Updated: 2025/12/31 01:46:20 by asaracut         ###   ########.fr       */
+/*   Updated: 2025/12/31 02:01:28 by asaracut         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,8 @@ int main(int argc, char **argv)
     int i;
     int j;
 
-    j = 0;
+    j = 1;
+	i = 0;
     if (argc == 1)
     {
         std::cout << "* LOUD AND UNBEARABLE FEEDBACK NOISE *" << std::endl;
@@ -26,15 +27,16 @@ int main(int argc, char **argv)
     }
     while (argv[j])
     {
-        i = -1;
+        i = 0;
         while (argv[j][i])
 		{
             std::cout << (char)toupper(argv[j][i]);
-			i++;
-		}
-		j++;
-	}
+            i++;
+        }
+        j++;
+		if (argv[j])
+			std::cout << " ";
+    }
     std::cout << std::endl;
-	std::cout << "ewa fain a fou" << std::endl << "test test" << std::endl;
     return 0;
 }
