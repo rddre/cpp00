@@ -6,13 +6,13 @@
 #    By: asaracut <asaracut@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/31 02:03:53 by asaracut          #+#    #+#              #
-#    Updated: 2025/12/31 02:05:26 by asaracut         ###   ########.fr        #
+#    Updated: 2026/01/22 23:05:29 by asaracut         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = phonebook
 
-SRCS = phonebook.cpp
+SRCS = main.cpp contact.cpp phonebook.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 CC = c++
