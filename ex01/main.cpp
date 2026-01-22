@@ -6,7 +6,7 @@
 /*   By: asaracut <asaracut@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/31 02:05:45 by asaracut          #+#    #+#             */
-/*   Updated: 2026/01/22 23:03:58 by asaracut         ###   ########.fr       */
+/*   Updated: 2026/01/22 23:45:43 by asaracut         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -169,6 +169,3 @@ int main()
 	}
 	return 0;
 }
-
-
-// gerer control D pour pas segfault
